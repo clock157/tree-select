@@ -19,10 +19,8 @@ Thumbs.db
 *.pyo
 node_modules
 .cache
-dist
 *.css
-build
-lib
+
 coverage
 yarn.lock
-es/
+

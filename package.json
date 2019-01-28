@@ -47,7 +47,8 @@
     "lint": "rc-tools run lint",
     "test": "jest",
     "coverage": "jest --coverage",
-    "prepublish": "rc-tools run guard"
+    "prepublish": "rc-tools run guard",
+    "umi:build": "umi lib build"
   },
   "jest": {
     "setupFiles": [
@@ -91,6 +92,7 @@
     "rc-util": "^4.5.0",
     "react-lifecycles-compat": "^3.0.4",
     "shallowequal": "^1.0.2",
+    "umi": "^2.4.4",
     "warning": "^4.0.1"
   }
 }
